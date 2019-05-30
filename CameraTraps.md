@@ -3,8 +3,8 @@ CameraTraps
 Elizabeth Madin
 2019-05-29
 
-Summary
--------
+Summary:
+--------
 
 This module focuses on using easily-accessibl, low-cost camera traps on coral reefs in the field to capture ecological and behavioral patterns that would be difficult (often impossible) to capture using traditional diver surveys or observations.
 
