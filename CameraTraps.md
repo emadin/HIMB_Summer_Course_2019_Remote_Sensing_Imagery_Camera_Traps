@@ -3,8 +3,8 @@ CameraTraps
 Elizabeth Madin
 2019-05-29
 
-Summary
--------
+Summary:
+--------
 
 This module focuses on using easily-accessibl, low-cost camera traps on coral reefs in the field to capture ecological and behavioral patterns that would be difficult (often impossible) to capture using traditional diver surveys or observations.
 
@@ -45,8 +45,8 @@ Setup:
 
 -   Navigate to sites using GPS or GoogleEarth on phone/tablet
     -   Sites we'll be going to will be roughly in this area:
-        <center>
 
+<center>
 <img src="info/CameraTrapArea.png" alt="Reef camera" style="width:90.0%" />
 
 </center>
@@ -55,16 +55,16 @@ Setup:
     -   Transect moves away from (rather than towards) adjacent reef(s)
     -   Transect moves through halo and into algal/seagrass bed
 -   Position transect tape at edge of reef and unroll in direction chosen, like this:
-    <center>
 
+<center>
 <img src="info/CameraTrapTransectExample.png" alt="Reef camera" style="width:90.0%" />
 
 </center>
 -   Every *X* metres, place a camera, with all cameras facing same direction
 -   Once camera is placed, use transect tape to place FOV marker exactly 2m direclty in front of camera
 -   Once finished, the whole setup will look something like this (though with fewer replicates and only 2m, instead of 3, between the camera and the FOV marker):
-    <center>
 
+<center>
 <img src="info/Diagram_HeronHalos_GoProArray.png" alt="Reef camera" style="width:90.0%" />
 
 </center>
