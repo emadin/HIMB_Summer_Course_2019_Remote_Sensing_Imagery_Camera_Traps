@@ -106,6 +106,10 @@ Data collection, part 2: Ecological observations
     + We will leave cameras running for 35 minutes (min; 5 min 'buffer' + 30 min observation)
     + While cameras are running at first site, we will set up second site and set cameras running. 
     + We will then pick up cameras in the order in which they were laid (eg, site 1 then site 2)
+<<<<<<< HEAD
+=======
+  
+>>>>>>> b7f998df22d296fe91cb989ba2880af6b379b417
 
 ## Data entry:
 
