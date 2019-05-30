@@ -53,6 +53,8 @@ Preparation:
 Setup:
 
 * Navigate to sites using GPS or GoogleEarth on phone/tablet
+    + We will approach sites from a side other than where we'll be working (to avoid disrutpion of algae/seagrass/animals)
+    + When laying trasect/seting up cameras, be very careful to minimize movement/disruption of sediment
     + Sites we'll be going to will be roughly in this area:
 
 <center>  
@@ -101,6 +103,10 @@ Data collection, part 2: Ecological observations
     + Camera are numbered sequentially from camera position 1 (on reef) to camera position _X_ (at end of transect)
     + You will need to specify both reef/halo # and camera position #
         - E.g., Reef/halo 01, camera 2 would mean holding 1 finger in front of the camera (for a few seconds), removing fingers from the camera's view, then holding 2 fingers in front of the camera (for another few seconds)
+    + We will leave cameras running for 35 minutes (min; 5 min 'buffer' + 30 min observation)
+    + While cameras are running at first site, we will set up second site and set cameras running. 
+    + We will then pick up cameras in the order in which they were laid (eg, site 1 then site 2)
+  
 
 ## Data entry:
 
