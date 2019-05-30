@@ -19,254 +19,101 @@ library(plyr)
 
 ## Summary
 
-This module focuses on low-cost using camera traps on coral reefs in the field to capture ecological and behavioral patterns that would bbe difficult to capture using traditional diver surveys or obbservations. 
+This module focuses on using easily-accessibl, low-cost camera traps on coral reefs in the field to capture ecological and behavioral patterns that would be difficult (often impossible) to capture using traditional diver surveys or observations. 
 
 ## Goals
 
 * Expose participants to camera traps (i.e., remote, in-situ observation) as a tool in marine science 
-* Start thinking about ?s to ask/answer in their own research
+* Start thinking about ?s that can be asked/answered using camera traps in their own research
 * Provide coral reef field experience
 
 ## Components
 
-* Devise/practice camera deployment protocol
-* Measure reefs in-situ
-* Measure reefs w/satellite imagery of various spatial resolutions via:
-    + Google Earth
-    + Planet Explorer
-* Compare patterns and measurement variability based on method, imagery spatial resolution, etc.
-* Write up results as 'mini-paper'
+* Devise/practice camera deployment protocol on land
+* Deploy/collect cameras in the field
+* Review imagery 
+* Discuss strengths/limitations of the approach and any pitfalls encountered
 
-## Protocols
+## Study sites
 
-Each group of participants will focus on a unique set of patch reefs: 
+Each group of participants will focus on a unique set of halos surrounding sandbar patch reefs: 
 
-* Group 1: Patch reefs (PR): 19 (small), 16 (med), 12 (large)
-* Group 2: Patch reefs (PR): 20 (small), 22 (med), 15 (large)
-* Group 3: Patch reefs (PR): 21 (small), 23 (med), 24 (large)
+* Group 1: N/A (did deeper patch reefs before we changed the protocol)
+* Group 2: KBbay_Halo_01, KBay_Halo_02
+* Group 3: KBbay_Halo_03, KBay_Halo_04
 
-#### Part 1: Field measurements
+## Gathering imagery
 
 Preparation:
 
-* Brainstorm, plan, and practice measurements on land:
-    + Area
-    + Perimeter
-* Revise plan and write protocol for field measurements
+* Practice camera deployment on land
 * Create datasheets on waterproof paper
-* Gather remaining supplies for morning field trip
+* Gather remaining supplies for field trip
 
-Measuring reefs:
+Setup:
 
-* Measure each study reef based on methods in protocol
-* Record data (including metadata - e.g., date/time, depth, etc.) on datasheet(s)
-* Make sure not to leave any gear in the water!
+* Navigate to sites using GPS or GoogleEarth on phone/tablet
+    + Sites we'll be going to will be roughly in this area:
+<center>  
+  
+![**Reef camera**](info/CameraTrapArea.png){ width=90%}  
+  
+</center> 
+* Record metadata (e.g., camera number; reef number; date, depth, etc.) on datasheet(s)
+* Choose direction for camera transect so that:
+    + Transect moves away from (rather than towards) adjacent reef(s)
+    + Transect moves through halo and into algal/seagrass bed
+* Position transect tape at edge of reef and unroll in direction chosen, like this:
+<center>  
+  
+![**Reef camera**](info/CameraTrapTransectExample.png){ width=90%}  
+  
+</center> 
+* Every _X_ metres, place a camera, with all cameras facing same direction
+* Once camera is placed, use transect tape to place FOV marker exactly 2m direclty in front of camera
+* Once finished, the whole setup will look something like this (though with fewer replicates and only 2m, instead of 3, between the camera and the FOV marker):
+<center>  
+  
+![**Reef camera**](info/Diagram_HeronHalos_GoProArray.png){ width=90%}  
+  
+</center> 
 
-Data entry:
+Data collection, part 1: Benthic surveys
 
-* Open the .csv datasheet template ("Module1_MeasuringReefs_template.csv") sent to you by Slack
+* Once all cameras and FOV markers are placed, turn a GoPro on and **slowly** swim the length of the transect
+    + before starting, use your fingers to signify which reef we're doing in front of the camera
+          - E.g., Reef/halo 01 would mean holding 1 finger in front of the camera (for a few seconds)
+    + Start at the reef and move outward, through the halo and out into the algal/seagrass 'meadow'
+    + Point the camera straight down at the benthos, **being sure to keep the transect tape in the FOV at all times**
+    + Swim slowly and hold your camera steady (we will need to extract **clear** still images of the benthos)
+    + When you reach the end of the transect tape, turn the camera off
+
+Data collection, part 2: Ecological observations
+
+* Once benthic survey is done, clip the benthic survey camera into its holder
+* Record time on the datasheet and turn all cameras 
+* As you turn each camera on, use your fingers in front of the camera to signify which **reef and camera** it is 
+    + Camera are numbered sequentially from camera position 1 (on reef) to camera position _X_ (at end of transect)
+    + You will need to specify both reef/halo # and camera position #
+        - E.g., Reef/halo 01, camera 2 would mean holding 1 finger in front of the camera (for a few seconds), removing fingers from the camera's view, then holding 2 fingers in front of the camera (for another few seconds)
+
+## Data entry:
+
+* Open the .csv datasheet template ("CameraTraps_template.csv") sent to you by Slack
     + Do not add/delete columns since we will combine datasets later
-    + Column headings in red are those you’ll be filling in
-* Open .csv datasheet template and re-save with your initials appended to the end of the filename (e.g., "Module1_MeasuringReefs_EM.csv")
-    + Column headings you’ll be filling in are:
-        - reef_no
-        - perimeter_m
-        - area_m2
-        - diam_longest_m (if measured)
-        - diam_perpendic_m (if measured)
-        - date 
-        - observer (as your three or four initials)
-        - notes (if needed)
+    + Columns with blanks are those you’ll be filling in
+* Open .csv datasheet template and re-save with your group's name appended to the end of the filename (e.g., "Module1_MeasuringReefs_RotationGroupA.csv")
+* Enter metadata into this datasheet
 
-* Enter data into this datasheet
+## Post-field debrief 
 
-#### Part 2: Imagery measurements
-
-Getting started:
-
-* Open .kmz/.kml patch reef placemark file ("Sites.kmz", sent to you by Slack) in Google Earth
-* Open .csv datasheet you saved with your initials
-    + Column headings you’ll be filling in are:
-        - reef_no
-        - perimeter_m
-        - area_m2
-        - observer (as your three or four initials)
-        - notes (if needed)
-
-Measuring reefs:
-
-* You will measure three of the patch reefs in Kane’ohe Bay for:
-    + Area
-    + Perimeter
-* Do one replicate of each reef
-* If time permits, do the two additional replicate measurements per reef listed in datasheet
-* You will use both Google Earth and Planet Explorer to measure reefs using imagery spanning a range of spatial resolutions
-
-1) **Google Earth**
-
-    + Measure each of the study reefs for the following dates/spatial resolutions by using the Time Slider to select the following dates’ imagery:
-    
-
-        Date (yyyymmdd)   | Resolution (m)  | Satellite                             | Provider     | 
-        ----------------- | --------------- | ------------------------------------- | ------------ |
-        20130115          | 0.15            | NA; aerial imagery                    | Unknown      |
-        20130822          | 0.50            | WorldView-1/2, GeoEye-1, or Quickbird | DigitalGlobe |
-        20110108          | ~1.00           | Ikonos                                | DigitalGlobe |
-        20030412          | ~2.00           | EarlyBird-1 (?)                       | DigitalGlobe |
-
-
-    + Use the polygon measurement tool to extract area/perimeter 
-    + Manually copy measurements into .csv 
-    + Save measurement: name as “PR## _ #.## _ ## _ ##” = PR[reef #] _ [resolution, in m] _ [replicate] _ [your initials] (e.g., “PR21_0.15_01_EM”)
-    + Drag saved measurements to My Places
-    + Frequently save My Places (File -> Save -> Save My Places)
-    + _Note_: if you need to go back to measurements, right-click on outlines (or their corresponding saved names in My Places) -> Get Info 
-
-2) **Planet Explorer**
-
-    + Draw a rectangular AOI (area of interest) to cover Kane’ohe Bay
-    + Visually compare the Google Earth placemarks with the Planet Explorer AOI to locate your study reefs 
-    + Measure each of the study reefs for the following satellites/dates/spatial resolutions by using the left-hand options area to select the following imagery:
-
-        Date (yyyymmdd)   | Resolution (m)  | Satellite                             | Provider     | 
-        ----------------- | --------------- | ------------------------------------- | ------------ |
-        20190316          | ~3.00           | PlanetScope (formerly Dove CubeSats)  | Planet       |
-        20160208          | 5.00            | RapidEye                              | Planet       |
-        20180307          | ~10.00          | Sentinel-2                            | ESA          |
-        20190328          | 30.00           | Landsat 8                             | USGS         |
-
-    + To find this imagery most efficiently, set the following search parameters:
-        - Make sure you’re in “Browse” mode 
-        - Date range (right under search box) = 2016/01/01 - today
-        - Drop down menu = Daily imagery
-        - Cloud cover = 0-10%
-        - Area coverage = 0-90%
-        - Source = tick sources corresponding to “satellite” above 
-        - _Tip_: do this satellite by satellite for faster searching
-    + Use the “measure area” tool to extract area 
-    + Use the “measure distance” tool to extract perimeter (hold shift for free hand measurement of both area/perim)
-    + Manually copy measurements into .csv 
-    + _Note_: there’s no way to save measurements, so double-check each entry for accuracy before moving on
-
-## Part 3: Data analysis
-
-Once all data is collected: 
-
-* Check your dataset for any typos, missing values, etc.
-* Create a new RStudio proejct (.Rpoj) in the same folder as your .csv
-* Creat a new project-specific repository in Github 
-* Link your Github repo with your project directory (folder)
-* Commit/push to a new project-specific repository you create in Github
-* Send your repo's link to the rest of the group via our Slack rotation group channel
-* Pull (download) everyone else’s datasets
-* Merge others’ datasets with your dataset
-* Commit/push revised (merged) dataset to your Github repo
-
-Once everyone’s data is merged:
-
-* Create a new R Markdown (.Rmd) file in R Studio
-* Make some basic plots to help you explore any patterns in the data
-* Run some statistical analyses to determine sources of variance, any significant trends, etc. 
-
-Now, let's do some basic plots to get you started:
-
-_Note: you'll need to change the data source file path & file name to match your own, and your results will be different as a result._ 
-
-```{r data import, echo=TRUE, results='hide', include=FALSE}
-################################################
-# import data, observe structure
-################################################
-
-data<-read.csv("data/Module1_MeasuringReefs_EM.csv", header = TRUE)
-
-names(data)
-head(data)
-data$year<-substr(data$date,0,4) # add a column for year only
-```
-
-
-```{r data explore-1, echo=TRUE, results='hide', fig.height=5, fig.width=5, fig.align='center'}
-
-################################################
-# explore patterns
-################################################
-
-# Effect of method
-plot(area_m2~method, data=data, na.ignore=TRUE, col="lightgrey",
-     ylab="Patch reef area (m^2)", 
-     xlab="Method", 
-     main="Area versus method")
-dev.copy(pdf,"figs/method_area_effect.pdf")    # can change to .png, etc.; can change size to incr resolution
-dev.off()
-
-# Effect of imagery resolution
-plot(area_m2~imagery_resolution_m, data=data, col="slategrey",
-     xlim=c(0,10),
-     xlab="Imagery spatial resolution (m)", 
-     ylab="Patch reef area (m^2)", 
-     main="Area versus imagery resolution")
-res.area.lm=lm(area_m2 ~ imagery_resolution_m, data=data)
-abline(res.area.lm, col = "black")
-summary(res.area.lm)
-dev.copy(pdf,"figs/resolution_area_effect.pdf")    
-dev.off()
-
-plot(perimeter_m~imagery_resolution_m, data=data, col="slategrey",
-     xlim=c(0,10),
-     xlab="Imagery spatial resolution (m)", 
-     ylab="Patch reef perimeter (m)", 
-     main="Perimeter versus imagery resolution")
-res.perim.lm=lm(perimeter_m ~ imagery_resolution_m, data=data)
-abline(res.perim.lm, col = "black")
-summary(res.perim.lm)
-dev.copy(pdf,"figs/resolution_perimeter_effect.pdf")    
-dev.off()
-
-# Effect of date (i.e., do patch reefs measureably grow or shrink over time?)
-plot(area_m2~as.numeric(year), data=data, col="slategrey",
-     xlab="Year", 
-     ylab="Patch reef area (m^2)", 
-     main="Area versus year")
-date.area.lm=lm(area_m2 ~ as.numeric(year), data=data)
-abline(date.area.lm, col = "black")
-summary(date.area.lm)
-dev.copy(pdf,"figs/date_area_effect.pdf")    
-dev.off()
-```
-
-Now, let's see if there's anything going on with time when imagery resolution is considered:
-
-```{r data analysis-1, echo=TRUE, results='hide', fig.height=5, fig.width=5, fig.align='center'}
-################################################
-# analyze data
-################################################
-
-# Effects of imagery resolution + year
-res.year.lm=lm(area_m2 ~ imagery_resolution_m * as.numeric(year), data=data)
-summary(res.year.lm)
-```
-
-Or reef identity (number):
-
-```{r data analysis-2, echo=TRUE, results='hide', fig.height=5, fig.width=5, fig.align='center'}
-################################################
-# analyze data
-################################################
-
-# Effects of imagery resolution + reef ID
-res.reefID.lm=lm(area_m2 ~ imagery_resolution_m * reef_no, data=data)
-summary(res.reefID.lm)
-```
-
-
-## Part IV: Write-up
-
-* When you’re finished with your analyses, go back and give each figure a short caption 
-* Structure your .Rmd file as a ‘mini-paper’ with a bit of very brief text (~2-5 sentences) for each of the usual paper sections: 
-    + Introduction (summarize what you’re doing with this mini-project)
-    + Methods (what you did, both in the field and the lab)
-    + Results (here’s where your figures and stats outputs will go)
-    + Discussion (mention any interesting findings and, if you have time, briefly relate this to any previous literature using a similar approach/asking similar questions)	
-* This exercise will help you see the value of using R Markdown to write papers (if you’re not already familiar with or using it)
-
+* We won't have time in this course to process/analyse the imagery, so we will view a subset of it and discuss. 
+* Questions to consider:
+    + What worked well?
+    + What could be improved?
+    + Were you surprised by anything you saw: 
+        - in the field?
+        - in the imagery?
+    + Are there any questions related to your own reserach that could be addressed in some way usimg camera trap data?
+    + Any other thoughts/questions?
 
