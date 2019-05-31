@@ -1,7 +1,7 @@
 CameraTraps
 ================
 Elizabeth Madin
-2019-05-30
+2019-05-31
 
 Summary:
 --------
@@ -62,40 +62,49 @@ Setup:
 <img src="info/CameraTrapTransectExample.png" alt="Reef camera" style="width:90.0%" />
 
 </center>
--   Every *X* metres, place a camera, with all cameras facing same direction
+Data collection, part 1: Benthic surveys
+
+-   Once the transect is laid, turn a GoPro on and:
+    -   Use your fingers to signify which reef we're doing in front of the camera
+        -   E.g., Reef/halo 01 would mean holding 1 finger in front of the camera (for a few seconds)
+    -   Then, start at the reef and swim the length of the transect, through the halo and out into the algal/seagrass 'meadow'
+        -   Point the camera straight down at the benthos, **being sure to keep the transect tape in the FOV at all times**
+        -   Swim slowly and hold your camera steady (we will need to extract **clear** still images of the benthos)
+        -   When you reach the end of the transect tape, turn the camera off
+
+Data collection, part 2: Ecological observations
+
+Once benthic survey is done, set up the cameras:
+
+-   Place one camera (position 1) on top of the reef, ideally on dead coral
+-   Plase other cameras (positions 2-5) every 3 metres along the transect facing same direction at the following distances from the reef:
+    -   (Camera position 1: on the reef)
+    -   Camera position 2: 1.5m
+    -   Camera position 3: 4.5m
+    -   Camera position 4: 7.5m
+    -   Camera position 5: 10.5m
 -   Once camera is placed, use transect tape to place FOV marker exactly 2m direclty in front of camera
 -   Once finished, the whole setup will look something like this (though with fewer replicates and only 2m, instead of 3, between the camera and the FOV marker):
 
 <center>
-<img src="info/Diagram_HeronHalos_GoProArray.png" alt="Reef camera" style="width:90.0%" />
+<img src="info/Diagram_HalosCameraSetup_DaytimeGoPros_May2019_ForProtocolDoc.png" alt="Reef camera" style="width:90.0%" />
 
 </center>
-Data collection, part 1: Benthic surveys
+Once all cameras and FOV markers are placed, record time on the datasheet and turn all cameras:
 
--   Once all cameras and FOV markers are placed, turn a GoPro on and **slowly** swim the length of the transect
-    -   before starting, use your fingers to signify which reef we're doing in front of the camera
-        -   E.g., Reef/halo 01 would mean holding 1 finger in front of the camera (for a few seconds)
-    -   Start at the reef and move outward, through the halo and out into the algal/seagrass 'meadow'
-    -   Point the camera straight down at the benthos, **being sure to keep the transect tape in the FOV at all times**
-    -   Swim slowly and hold your camera steady (we will need to extract **clear** still images of the benthos)
-    -   When you reach the end of the transect tape, turn the camera off
-
-Data collection, part 2: Ecological observations
-
--   Once benthic survey is done, clip the benthic survey camera into its holder
--   Record time on the datasheet and turn all cameras
 -   As you turn each camera on, use your fingers in front of the camera to signify which **reef and camera** it is
     -   Camera are numbered sequentially from camera position 1 (on reef) to camera position *X* (at end of transect)
     -   You will need to specify both reef/halo \# and camera position \#
         -   E.g., Reef/halo 01, camera 2 would mean holding 1 finger in front of the camera (for a few seconds), removing fingers from the camera's view, then holding 2 fingers in front of the camera (for another few seconds)
-    -   We will leave cameras running for 35 minutes (min; 5 min 'buffer' + 30 min observation)
-    -   While cameras are running at first site, we will set up second site and set cameras running.
-    -   We will then pick up cameras in the order in which they were laid (eg, site 1 then site 2)
+-   Leave cameras running for 35 minutes (min; 5 min 'buffer' + 30 min observation)
+-   While cameras are running at first site, we will set up second site and set cameras running.
+-   We will then pick up cameras in the order in which they were laid (eg, site 1 then site 2)
 
 Data entry:
 -----------
 
 -   Open the .csv datasheet template ("CameraTraps\_template.csv") sent to you by Slack
+    -   Re-save with your group's name appended to the end of the filename (e.g., "Module1\_MeasuringReefs\_RotationGroupA.csv")
     -   Do not add/delete columns since we will combine datasets later
     -   Columns A-I are those you’ll be filling in:
         -   site
@@ -107,7 +116,6 @@ Data entry:
         -   time
         -   depth
         -   tide\_stage
--   Open .csv datasheet template and re-save with your group's name appended to the end of the filename (e.g., "Module1\_MeasuringReefs\_RotationGroupA.csv")
 -   Enter metadata into this datasheet
 
 Post-field debrief
