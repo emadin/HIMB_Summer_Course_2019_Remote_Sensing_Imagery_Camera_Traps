@@ -60,24 +60,18 @@ Gathering imagery
     -   When laying trasect/seting up cameras, be very careful to minimize movement/disruption of sediment
     -   Sites we'll be going to will be roughly in this area:
 
-<center>
 <img src="info/CameraTrapArea.png" alt="Reef camera" style="width:90.0%" />
 
 </center>
--   Record metadata (e.g., camera number; reef number; date, depth, etc.) on datasheet(s)
+-   Record metadata (e.g., reef number; camera numbers & positions; date, depth, etc.) on datasheet(s)
 -   Choose direction for camera transect so that:
     -   Transect moves away from (rather than towards) adjacent reef(s)
     -   Transect moves through halo and into algal/seagrass bed
 -   Position transect tape at edge of reef and unroll in direction chosen, like this:
 
-<center>
 <img src="info/CameraTrapTransectExample.png" alt="Reef camera" style="width:90.0%" />
 
-</center>
--   asd
--   asdfda
-
-#### Data collection, part 1: Benthic surveys (here)
+#### Data collection, part 1: Benthic surveys
 
 -   Once the transect is laid, turn a GoPro on and:
     -   Use your fingers to signify which reef we're doing in front of the camera
@@ -101,10 +95,8 @@ Once benthic survey is done, set up the cameras:
 -   Once camera is placed, use transect tape to place FOV marker exactly 2m direclty in front of camera
 -   Once finished, the whole setup will look something like this (though with fewer replicates and only 2m, instead of 3, between the camera and the FOV marker):
 
-<center>
 <img src="info/Diagram_HalosCameraSetup_DaytimeGoPros_May2019_ForProtocolDoc.png" alt="Reef camera" style="width:90.0%" />
 
-</center>
 Once all cameras and FOV markers are placed, record time on the datasheet and turn all cameras:
 
 -   As you turn each camera on, use your fingers in front of the camera to signify which **reef and camera** it is
