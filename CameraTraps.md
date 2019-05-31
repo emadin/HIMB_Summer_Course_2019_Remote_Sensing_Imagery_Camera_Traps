@@ -3,10 +3,10 @@ CameraTraps
 Elizabeth Madin
 2019-05-31
 
-Summary:
---------
+Summary
+-------
 
-This module focuses on using easily-accessibl, low-cost camera traps on coral reefs in the field to capture ecological and behavioral patterns that would be difficult (often impossible) to capture using traditional diver surveys or observations.
+This module focuses on using easily-accessible, low-cost camera traps on coral reefs in the field to capture ecological and behavioral patterns that would be difficult (often impossible) to capture using traditional diver surveys or observations.
 
 Goals
 -----
@@ -32,16 +32,28 @@ Each group of participants will focus on a unique set of halos surrounding sandb
 -   Group 2: KBbay\_Halo\_01, KBay\_Halo\_02
 -   Group 3: KBbay\_Halo\_03, KBay\_Halo\_04
 
+Materials
+---------
+
+-   GoPros: 5 per halo
+-   FOV markers: 5 per halo
+-   tent stakes: 4 per halo
+-   dive weight: 1 per halo
+-   transect tape
+-   slate
+-   printed metadata sheet
+-   mesh bag(s) to carry everything
+
 Gathering imagery
 -----------------
 
-Preparation:
+#### Preparation:
 
 -   Practice camera deployment on land
 -   Create datasheets on waterproof paper
 -   Gather remaining supplies for field trip
 
-Setup:
+#### Setup:
 
 -   Navigate to sites using GPS or GoogleEarth on phone/tablet
     -   We will approach sites from a side other than where we'll be working (to avoid disrutpion of algae/seagrass/animals)
@@ -62,7 +74,7 @@ Setup:
 <img src="info/CameraTrapTransectExample.png" alt="Reef camera" style="width:90.0%" />
 
 </center>
-Data collection, part 1: Benthic surveys
+#### Data collection, part 1: Benthic surveys
 
 -   Once the transect is laid, turn a GoPro on and:
     -   Use your fingers to signify which reef we're doing in front of the camera
@@ -72,7 +84,7 @@ Data collection, part 1: Benthic surveys
         -   Swim slowly and hold your camera steady (we will need to extract **clear** still images of the benthos)
         -   When you reach the end of the transect tape, turn the camera off
 
-Data collection, part 2: Ecological observations
+#### Data collection, part 2: Ecological observations
 
 Once benthic survey is done, set up the cameras:
 
