@@ -66,12 +66,8 @@ Each group of participants will focus on a unique set of halos surrounding sandb
     + We will approach sites from a side other than where we'll be working (to avoid disrutpion of algae/seagrass/animals)
     + When laying trasect/seting up cameras, be very careful to minimize movement/disruption of sediment
     + Sites we'll be going to will be roughly in this area:
-
   
 ![**Reef camera**](info/CameraTrapArea.png){ width=90%}  
-  
-</center> 
-
 
 
 * Record metadata (e.g., reef number; camera numbers & positions; date, depth, etc.) on datasheet(s)

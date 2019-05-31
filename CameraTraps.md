@@ -62,7 +62,6 @@ Gathering imagery
 
 <img src="info/CameraTrapArea.png" alt="Reef camera" style="width:90.0%" />
 
-</center>
 -   Record metadata (e.g., reef number; camera numbers & positions; date, depth, etc.) on datasheet(s)
 -   Choose direction for camera transect so that:
     -   Transect moves away from (rather than towards) adjacent reef(s)
