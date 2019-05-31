@@ -2,10 +2,4 @@
 .Rhistory
 .RData
 .Ruserdata
-
-.Rproj.user
-.Rhistory
-.RData
-.Ruserdata
-figs/
-Module1_MeasurenigReefs_files/
+info/
