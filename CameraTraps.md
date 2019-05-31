@@ -74,7 +74,7 @@ Gathering imagery
 <img src="info/CameraTrapTransectExample.png" alt="Reef camera" style="width:90.0%" />
 
 </center>
-#### Data collection, part 1: Benthic surveys
+#### Data collection, part 1: Benthic surveys (here)
 
 -   Once the transect is laid, turn a GoPro on and:
     -   Use your fingers to signify which reef we're doing in front of the camera

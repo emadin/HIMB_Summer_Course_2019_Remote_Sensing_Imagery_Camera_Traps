@@ -2,9 +2,7 @@
 title: "CameraTraps"
 author: "Elizabeth Madin"
 date: "`r format(Sys.Date())`"
-output: 
-  github_document
-  #word_document
+output: github_document
 ---
 
 
@@ -88,11 +86,11 @@ Each group of participants will focus on a unique set of halos surrounding sandb
   
 ![**Reef camera**](info/CameraTrapTransectExample.png){ width=90%}  
   
-</center> 
+</center>  
 
 
 
-#### Data collection, part 1: Benthic surveys
+#### Data collection, part 1: Benthic surveys (here)
 
 * Once the transect is laid, turn a GoPro on and:
     + Use your fingers to signify which reef we're doing in front of the camera
