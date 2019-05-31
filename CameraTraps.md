@@ -141,4 +141,4 @@ Post-field debrief
         -   in the field?
         -   in the imagery?
     -   Are there any questions related to your own reserach that could be addressed in some way usimg camera trap data?
-    -   Any other thoughts/questions?
+    -   Any other thoughts/questions??

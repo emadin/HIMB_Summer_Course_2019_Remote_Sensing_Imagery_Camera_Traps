@@ -76,6 +76,7 @@ Each group of participants will focus on a unique set of halos surrounding sandb
 </center> 
 
 
+
 * Record metadata (e.g., camera number; reef number; date, depth, etc.) on datasheet(s)
 * Choose direction for camera transect so that:
     + Transect moves away from (rather than towards) adjacent reef(s)
@@ -88,6 +89,7 @@ Each group of participants will focus on a unique set of halos surrounding sandb
 ![**Reef camera**](info/CameraTrapTransectExample.png){ width=90%}  
   
 </center> 
+
 
 
 #### Data collection, part 1: Benthic surveys
@@ -161,7 +163,7 @@ Once all cameras and FOV markers are placed, record time on the datasheet and tu
         - in the field?
         - in the imagery?
     + Are there any questions related to your own reserach that could be addressed in some way usimg camera trap data?
-    + Any other thoughts/questions?
+    + Any other thoughts/questions??
 
 
 
